@@ -9,16 +9,16 @@ module.exports = function tabto(input) {
         return;
     }
 
-    const maxLength = input.maxLength;
-    const next = document.querySelector(input.dataset.tabTarget);
+    var maxLength = input.maxLength;
+    var next = document.querySelector(input.dataset.tabTarget);
+    var currentValue = input.value;
 
     if (!next || !maxLength) {
         console.error('tabto() a valid target and a maxLength on the provided input.');
         return;
     }
 
-    let currentValue = input.value;
-    input.addEventListener('keyup', () => {
+    input.addEventListener('keyup', function () {
         // If the value change, check for tab
         if (input.value !== currentValue) {
             if (input.value.length >= maxLength) {
