@@ -1,6 +1,6 @@
 {
   "name": "@jolicode/tabto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto-tabulation for your inputs. Tiny helper that focus on the next field when a field reach maxLength.",
   "main": "index.js",
   "dependencies": {},
