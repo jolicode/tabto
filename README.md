@@ -8,7 +8,9 @@ Auto-tabulation for your inputs. Tiny helper that focus user on the next field w
 ```
 
 ```javascript
-import tabto from 'tabto';
+import tabto from '@jolicode/tabto';
 
 tabto(document.getElementById('one'));
 ```
+
+You can checkout a working demo [here](https://codesandbox.io/s/jj7ojxw4yw)
