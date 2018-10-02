@@ -1,5 +1,5 @@
 module.exports = function tabto(input) {
-    if (!input instanceof HTMLInputElement) {
+    if (!(input instanceof HTMLInputElement)) {
         console.error('tabto() expect a DOM Input element.');
         return;
     }
