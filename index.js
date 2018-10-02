@@ -14,7 +14,7 @@ module.exports = function tabto (input) {
   const maxLength = input.maxLength
   const next = document.querySelector(input.dataset.tabTarget)
   if (!next || !maxLength) {
-    console.error('tabto() a valid target and a maxLength on the provided input.');
+    console.error('tabto() a valid target and a maxLength on the provided input.')
     return
   }
 
