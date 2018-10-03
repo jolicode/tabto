@@ -12,3 +12,12 @@ import tabto from 'tabto';
 
 tabto(document.getElementById('one'));
 ```
+
+### Run linter
+
+In our case, we use [StandardJS](https://standardjs.com/) rules.
+
+1. `$ npm run lint` (with npm)
+2. `$ yarn run lint` (with yarn)
+
+PS: The lint script will fix all autofixable problems.
