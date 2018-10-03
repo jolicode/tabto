@@ -13,4 +13,12 @@ import tabto from '@jolicode/tabto';
 tabto(document.getElementById('one'));
 ```
 
-You can checkout a working demo [here](https://codesandbox.io/s/jj7ojxw4yw)
+### Run linter
+
+In our case, we use [StandardJS](https://standardjs.com/) rules.
+
+1. `$ npm run lint` (with npm)
+2. `$ yarn run lint` (with yarn)
+PS: The lint script will fix all autofixable problems.
+
+**You can checkout a working demo [here](https://codesandbox.io/s/jj7ojxw4yw)**
