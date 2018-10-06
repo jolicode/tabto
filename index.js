@@ -19,7 +19,7 @@ module.exports = function tabto (input) {
   }
 
   let currentValue = input.value
-  input.addEventListener('keyup', function () {
+  input.addEventListener('input', function () {
     // If the value change, check for tab
     if (input.value !== currentValue) {
       if (input.value.length >= maxLength) {
