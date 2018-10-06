@@ -2,20 +2,31 @@
   "name": "@jolicode/tabto",
   "version": "1.0.1",
   "description": "Auto-tabulation for your inputs. Tiny helper that focus on the next field when a field reach maxLength.",
-  "main": "index.js",
+  "browser": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.1",
+    "@babel/preset-env": "^7.1",
+    "@babel/cli": "^7.1",
     "standard": "^12.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard *.js --fix"
+    "lint": "standard *.js --fix",
+    "build": "babel index.js -d dist"
   },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "repository": "https://github.com/jolicode/tabto",
+  "homepage": "https://github.com/jolicode/tabto#readme",
   "keywords": [
     "tab",
     "tabulation",
     "autotab",
     "tabs",
+    "focus",
+    "front-end",
     "input"
   ],
   "author": "JoliCode",
