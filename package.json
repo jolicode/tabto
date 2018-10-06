@@ -6,14 +6,17 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.1",
-    "@babel/core": "^7.1",
+    "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
     "np": "^3.0.4",
     "standard": "^12.0.1"
   },
   "scripts": {
-    "test": "exit 0",
-    "lint": "standard *.js --fix",
+    "test": "jest",
+    "lint": "standard *.js test/*.js --fix",
     "build": "babel index.js -d dist",
     "release": "np"
   },
