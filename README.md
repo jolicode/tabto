@@ -33,8 +33,10 @@ $ npm i @jolicode/tabto
 
 In our case, we use [StandardJS](https://standardjs.com/) rules.
 
-1. `$ npm run lint` (with npm)
-2. `$ yarn run lint` (with yarn)
+1. `$ yarn run lint`
+
 PS: The lint script will fix all autofixable problems.
 
+### Publish
 
+1. `$ yarn run release`
