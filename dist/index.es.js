@@ -1,5 +1,3 @@
-'use strict';
-
 /* global HTMLInputElement */
 function tabto(input) {
   if (!(input instanceof HTMLInputElement)) {
@@ -33,4 +31,4 @@ function tabto(input) {
   });
 }
 
-module.exports = tabto;
+export default tabto;
