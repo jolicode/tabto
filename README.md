@@ -23,6 +23,12 @@ $ yarn add @jolicode/tabto
 $ npm i @jolicode/tabto
 ```
 
+We ship multiple versions:
+
+- CommonJS in `dist/index.js`;
+- UMD (Universal Module Definition) in `dist/browser.js`; 
+- and ESM (ECMAScript) in `dist/index.es.js`.
+
 ## Contributions
 
 ### Build
