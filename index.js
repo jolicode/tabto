@@ -1,6 +1,6 @@
 /* global HTMLInputElement */
 
-module.exports = function tabto (input) {
+export default function tabto (input) {
   if (!(input instanceof HTMLInputElement)) {
     console.error('tabto() expect a DOM Input element.')
     return
