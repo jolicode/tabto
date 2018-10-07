@@ -2,19 +2,22 @@
   "name": "@jolicode/tabto",
   "version": "1.1.0",
   "description": "Auto-tabulation for your inputs. Tiny helper that focus on the next field when a field reach maxLength.",
-  "browser": "dist/index.js",
+  "main": "dist/index.js",
+  "browser": "dist/browser.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.1",
     "@babel/core": "^7.1",
     "@babel/preset-env": "^7.1",
     "np": "^3.0.4",
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
     "standard": "^12.0.1"
   },
   "scripts": {
     "test": "exit 0",
     "lint": "standard *.js --fix",
-    "build": "babel index.js -d dist",
+    "build": "rollup -c",
     "release": "np"
   },
   "babel": {
