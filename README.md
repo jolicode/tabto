@@ -37,6 +37,10 @@ In our case, we use [StandardJS](https://standardjs.com/) rules.
 
 PS: The lint script will fix all autofixable problems.
 
+### Run tests
+
+1. `$ yarn run test`
+
 ### Publish
 
 1. `$ yarn run release`
